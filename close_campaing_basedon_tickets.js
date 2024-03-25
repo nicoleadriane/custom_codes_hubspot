@@ -1,7 +1,7 @@
 const axios = require('axios');
 
 exports.main = async (event, callback) => {
-  const hapikey = process.env.chavetickets;
+  const hapikey = process.env.hapikey;
   const campanhaId = event.inputFields['campanhaId'];
   const ticketProperties = ['hs_pipeline_stage'];
   
